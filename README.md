@@ -82,9 +82,9 @@ The full list of licenses is available in:
 
 ## 致谢
 
-- [mihomo](https://github.com/MetaCubeX/mihomo) - 强大的内核
-- [Vernesong](https://github.com/vernesong/mihomo) - Smart 内核开发
-- [Zashboard](https://github.com/Zephyruso/zashboard) - Web 控制面板
+- [mihomo](https://github.com/MetaCubeX/mihomo)
+- [Vernesong](https://github.com/vernesong/mihomo)
+- [Zashboard](https://github.com/Zephyruso/zashboard)
 
 ---
 
