@@ -16,7 +16,7 @@ Thank you for your understanding and support! For more details, please refer to 
 
 <br>
 <p align="center">
-  <img src="assets/clashmac-logo.png" alt="ClashMac Screenshot" width="300" style="filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));">
+  <img src="assets/Logo-Default.png" alt="ClashMac Screenshot" width="300" style="filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));">
 </p>
 <h1 align="center">ClashMac</h1>
 <h3 align="center" style="margin-top: 0; margin-bottom: 20px;">Lightweight macOS Clash Menu Bar Client</h3>
