@@ -4,29 +4,25 @@
 
 </div>
 
----
 
-## ⚠️ Important Notice
-
-The main project is currently not open source. This repository is primarily for publishing releases and collecting feedback.  
-All third-party open-source components used in this application have their licenses publicly disclosed as required.
-
-We will evaluate whether to open more content in the future based on project progress.  
-Thank you for your understanding and support! For more details, please refer to the [Pinned Announcement](https://github.com/666OS/ClashMac/issues/15)
-
-<br>
 <p align="center">
-  <img src="assets/Logo-Default.png" alt="ClashMac Screenshot" width="300" style="filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));">
+  <img src="assets/Logo-Default.png" alt="ClashMac Logo" width="300" style="filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));">
 </p>
 <h1 align="center">ClashMac</h1>
-<h3 align="center" style="margin-top: 0; margin-bottom: 20px;">Lightweight macOS Clash Menu Bar Client</h3>
+<h3 align="center" style="margin-top: 0; margin-bottom: 10px;">Lightweight macOS Clash Menu Bar Client</h3>
+<p align="center">
+  🌐 <a href="https://clashmac.app"><strong>Official Website: clashmac.app</strong></a>
+</p>
 
-<p align="center" style="margin-top: 0; margin-bottom: 50px;">
+<p align="center" style="margin-top: 0; margin-bottom: 20px;">
   <a href="https://github.com/666OS/ClashMac/releases/latest">
     <img src="https://img.shields.io/github/v/release/666OS/ClashMac?style=flat-square&logo=github&color=green" alt="Latest Release">
   </a>
   <a href="https://github.com/666OS/ClashMac/releases">
     <img src="https://img.shields.io/github/downloads/666OS/ClashMac/total?style=flat-square&logo=dropbox&logoColor=white&color=gold" alt="Downloads">
+  </a>
+  <a href="https://clashmac.app">
+    <img src="https://img.shields.io/badge/Official-Website-orange?style=flat-square&logo=safari" alt="Official Website">
   </a>
   <a href="https://t.me/Pinched666">
     <img src="https://img.shields.io/badge/Telegram-Channel-blue?style=flat-square&logo=telegram">
@@ -34,7 +30,9 @@ Thank you for your understanding and support! For more details, please refer to 
 </p>
 
 <p align="center">
-  <img src="assets/screenshot.png" alt="ClashMac Screenshot" width="400">
+  <a href="https://clashmac.app">
+    <img src="assets/website.png" alt="ClashMac Website" width="800">
+  </a>
 </p>
 
 ## Features
@@ -57,6 +55,7 @@ Thank you for your understanding and support! For more details, please refer to 
 - **Launch at Login**: Supports auto-start on macOS 11.5+
 - **Multi-Language**: Bilingual UI (English/Chinese), auto-follows system language
 - **Probe Kitty**: Brand new app icon, adaptive to light/dark mode
+- **Page Rules**: One-click add proxy rules for current webpage, supports major browsers
 
 ## Download
 
@@ -102,6 +101,14 @@ Enter in Terminal:
 xattr -d com.apple.quarantine /Applications/ClashMac.app
 ```
 Press Enter and reopen the application
+
+## ⚠️ Important Notice
+
+The main project is currently not open source. This repository is primarily for publishing releases and collecting feedback.  
+All third-party open-source components used in this application have their licenses publicly disclosed as required.
+
+We will evaluate whether to open more content in the future based on project progress.  
+Thank you for your understanding and support! For more details, please refer to the [Pinned Announcement](https://github.com/666OS/ClashMac/issues/15)
 
 ## License
 

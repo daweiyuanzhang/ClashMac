@@ -4,36 +4,35 @@
 
 </div>
 
----
 
-## ⚠️ 重要说明
-
-本项目本体暂不开源，当前仓库主要用于发布版本和接受反馈。  
-应用使用的第三方开源组件我们均已按要求公开 License。
-
-未来会根据项目进展评估是否开放更多内容。  
-感谢理解与支持！ 详细请参阅 [置顶说明](https://github.com/666OS/ClashMac/issues/15)
-
-<br>
 <p align="center">
-  <img src="assets/Logo-Default.png" alt="ClashMac Screenshot" width="300" style="filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));">
+  <img src="assets/Logo-Default.png" alt="ClashMac Logo" width="300" style="filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));">
 </p>
 <h1 align="center">ClashMac</h1>
-<h3 align="center" style="margin-top: 0; margin-bottom: 20px;">轻量级 macOS Clash 菜单栏客户端</h3>
+<h3 align="center" style="margin-top: 0; margin-bottom: 10px;">轻量级 macOS Clash 菜单栏客户端</h3>
+<p align="center">
+  🌐 <a href="https://clashmac.app"><strong>官方网站：clashmac.app</strong></a>
+</p>
 
-<p align="center" style="margin-top: 0; margin-bottom: 50px;">
+<p align="center" style="margin-top: 0; margin-bottom: 20px;">
   <a href="https://github.com/666OS/ClashMac/releases/latest">
     <img src="https://img.shields.io/github/v/release/666OS/ClashMac?style=flat-square&logo=github&color=green" alt="Latest Release">
   </a>
   <a href="https://github.com/666OS/ClashMac/releases">
     <img src="https://img.shields.io/github/downloads/666OS/ClashMac/total?style=flat-square&logo=dropbox&logoColor=white&color=gold" alt="Downloads">
   </a>
+  <a href="https://clashmac.app">
+    <img src="https://img.shields.io/badge/官方-网站-orange?style=flat-square&logo=safari" alt="官方网站">
+  </a>
   <a href="https://t.me/Pinched666">
     <img src="https://img.shields.io/badge/Telegram-Channel-blue?style=flat-square&logo=telegram">
   </a>
 </p>
+
 <p align="center">
-  <img src="assets/screenshot-cn.png" alt="ClashMac Screenshot" width="400">
+  <a href="https://clashmac.app">
+    <img src="assets/website.png" alt="ClashMac 官网" width="800">
+  </a>
 </p>
 
 ## 特色功能
@@ -56,6 +55,7 @@
 - **开机启动**：macOS 11.5+ 支持开机自动启动应用
 - **多语言**：中英文双语界面，自动跟随系统语言
 - **探头小猫**：全新应用图标，深浅色模式自适应
+- **网页规则**：一键为当前网页添加代理规则，适配主流浏览器
 
 ## 下载
 
@@ -101,6 +101,14 @@ xattr -cr /Applications/ClashMac.app
 xattr -d com.apple.quarantine /Applications/ClashMac.app
 ```
 回车后重新打开应用
+
+## ⚠️ 重要说明
+
+本项目本体暂不开源，当前仓库主要用于发布版本和接受反馈。  
+应用使用的第三方开源组件我们均已按要求公开 License。
+
+未来会根据项目进展评估是否开放更多内容。  
+感谢理解与支持！ 详细请参阅 [置顶说明](https://github.com/666OS/ClashMac/issues/15)
 
 ## 许可证
 
