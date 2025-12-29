@@ -45,9 +45,6 @@
     <td><img src="./assets/preview_dark.png" alt="深色"></td>
     <td><img src="./assets/preview_light.png" alt="浅色"></td>
   </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="./assets/preview_proxies.png" alt="代理"></td>
-  </tr>
 </table>
 
 ## 特色功能
@@ -126,13 +123,13 @@ xattr -d com.apple.quarantine /Applications/ClashMac.app
 
 > *"安全是一个过程，而非产品。"* — Bruce Schneier
 
-## 重要说明
+## 安全与隐私
 
-本项目本体暂不开源，当前仓库主要用于发布版本和接受反馈。  
-应用使用的第三方开源组件我们均已按要求公开 License。
+本应用完全在 macOS 本地运行，不收集或上传任何用户数据。
 
-未来会根据项目进展评估是否开放更多内容。  
-感谢理解与支持！ 详细请参阅 [置顶说明](https://github.com/666OS/ClashMac/issues/15)
+网络访问仅在用户显式配置，或用户手动检查更新时发生（更新文件托管于 GitHub）。
+
+应用仅请求其功能所需的最小系统权限。
 
 ## 许可证
 

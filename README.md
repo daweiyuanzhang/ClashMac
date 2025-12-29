@@ -45,9 +45,6 @@
     <td><img src="./assets/preview_dark.png" alt="Dark"></td>
     <td><img src="./assets/preview_light.png" alt="Light"></td>
   </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="./assets/preview_proxies.png" alt="Proxies"></td>
-  </tr>
 </table>
 
 ## Features
@@ -126,13 +123,13 @@ Press Enter and reopen the application
 
 > *"Security is a process, not a product."* — Bruce Schneier
 
-## Important Notice
+## Security & Privacy
 
-The main project is currently not open source. This repository is primarily for publishing releases and collecting feedback.  
-All third-party open-source components used in this application have their licenses publicly disclosed as required.
+This application runs entirely locally on macOS and does not collect or upload user data.  
 
-We will evaluate whether to open more content in the future based on project progress.  
-Thank you for your understanding and support! For more details, please refer to the [Pinned Announcement](https://github.com/666OS/ClashMac/issues/15)
+Network access occurs only when explicitly configured by the user, or when the user manually checks for updates (downloads are served via GitHub).  
+
+The application requests only the minimum system permissions required for its functionality.  
 
 ## License
 
