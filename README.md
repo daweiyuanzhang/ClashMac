@@ -1,6 +1,6 @@
 <div align="center">
 
-**Languages:** [English](README.md) | [简体中文](README.zh-CN.md)
+[English](README.md) | [简体中文](README.zh-CN.md)
 
 </div>
 
@@ -45,29 +45,42 @@
     <td><img src="./assets/preview_dark.png" alt="Dark"></td>
     <td><img src="./assets/preview_light.png" alt="Light"></td>
   </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="./assets/preview_dashboard.jpg" alt="Dashboard"></td>
+  </tr>
 </table>
 
 ## Features
 
-- **Native Application**: Built with SwiftUI, seamlessly integrated with macOS
-- **Lightweight & Efficient**: Menu bar app with minimal resource usage
-- **Dual Proxy Modes**: System Proxy (HTTP/SOCKS5) + Enhanced Mode (TUN), can be enabled independently or simultaneously
-- **Control Center**: Integrated Zashboard on macOS 13+, with Overview, Proxies, Connections, Rules, Logs modules
-- **Password-Free Operation**: One-click privileged helper installation, no password required for system proxy and kernel management
-- **Local Configurations**: Import local YAML/YML config files, auto-switch and apply
-- **Remote Subscriptions**: Remote config import with auto-update, smart naming, and URL validation
-- **Real-Time Statistics**: Menu bar displays live upload/download speeds, active connections, memory usage
-- **Smart Configuration**: Auto-completion for DNS, TUN, GEO databases and other required parameters, respects user customizations
-- **Proxy Groups**: Switch proxy nodes directly from menu, with latency testing support
-- **Keyboard Shortcuts**: `⌘S` System Proxy | `⌘E` Enhanced Mode | `⌘D` Control Center | `⌥G/R/D` Global/Rule/Direct, etc.
-- **Config Pre-Check**: Auto-validation before switching or importing configs, error popup with quick edit support
-- **Crash Detection**: Auto-identifies kernel crash causes (Smart strategy, TUN permissions, etc.), provides solutions
-- **Customizable UI**: Menu items visibility configurable, streamline interface as needed
-- **App Updates**: Auto-detect new versions, one-click download and install with real-time progress
-- **Launch at Login**: Supports auto-start on macOS 11.5+
-- **Multi-Language**: Bilingual UI (English/Chinese), auto-follows system language
-- **Probe Kitty**: Brand new app icon, adaptive to light/dark mode
-- **Page Rules**: One-click add proxy rules for current webpage, supports major browsers
+- **Native Development**: Built with SwiftUI, deeply integrated with macOS
+- **Dual Proxy Modes**: System Proxy + TUN Enhanced, complete traffic coverage
+- **Standalone Dashboard**: Native Dashboard app with Proxies/Rules/Connections/Logs at a glance
+- **Traffic Tracking**: 4-dimension statistics by Proxy/Process/Interface/Host, byte-level precision
+- **Privacy Mode**: One-click hide sensitive info like IP/nodes, share screenshots worry-free
+- **One-Click Rules**: Add proxy rules for current webpage, supports major browsers
+- **Zero Config**: Auto-complete DNS/TUN/GEO parameters, ready out of the box
+- **Real-Time Stats**: Menu bar shows speed, connections, memory usage
+- **Subscription Info**: Usage, expiry date, progress bar at a glance
+- **Quick Switch**: Switch nodes directly from menu bar, one-click latency test
+- **Subscription Management**: Remote config import, auto-update, smart naming
+- **Drag & Drop**: Drop YAML config, auto-switch and apply
+- **Config Pre-Check**: Auto-validate before import, pinpoint errors precisely
+- **Video Boost**: Disable overseas QUIC, say goodbye to YouTube buffering
+- **Parameter Override**: Unified config across subscriptions, no file modification
+- **Crash Diagnosis**: Auto-identify issues, provide solutions
+- **Shortcuts**: Rich keyboard shortcuts for efficient control
+- **Lightweight**: Menu bar resident, minimal memory footprint
+- **Customizable UI**: Show/hide menu items, create your own layout
+- **Auto Update**: Detect new versions, one-click upgrade
+- **Bilingual**: Auto-switch between English and Chinese
+- **Password-Free**: Privileged helper handles auth, no password prompts
+
+## System Requirements
+
+| Feature | Minimum Version |
+|---------|----------------|
+| Basic Features | macOS 12.4+ |
+| Dashboard/Traffic Stats/Privacy Mode | macOS 13.0+ |
 
 ## Download
 
