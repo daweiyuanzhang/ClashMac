@@ -1,17 +1,26 @@
 name: Sync Release
 
 on:
+  # 1. 手动触发，可以指定一个 tag
   workflow_dispatch:
     inputs:
       tag:
         description: "Tag to sync"
         required: true
         default: "latest"
+  
+  # 2. 推送新 tag 时触发
   push:
     tags:
       - "*"
 
-# Ensure the action has write permissions to the current repository
+  # 3. 定时触发：每2小时执行一次
+  schedule:
+    # cron 表达式，代表在每2个小时的第0分钟执行
+    # 例如：00:00, 02:00, 04:00 (UTC 时间)
+    - cron: '0 */2 * * *'
+
+# 确保 action 有写入当前仓库的权限
 permissions:
   contents: write
 
@@ -26,4 +35,9 @@ jobs:
           destination: "daweiyuanzhang/ClashMac"
           token: ${{ secrets.GITHUB_TOKEN }}
           destination-token: ${{ secrets.DESTINATION_GITHUB_TOKEN }}
-          tag: ${{ inputs.tag }}
+          # 动态设置 tag 的值：
+          # - 如果是手动触发 (workflow_dispatch)，使用输入的 tag
+          # - 如果是推送 tag 触发 (push)，使用被推送的 tag 名称
+          # - 如果是定时触发 (schedule)，使用 'latest'
+          tag: ${{ (github.event_name == 'workflow_dispatch' && inputs.tag) || (github.event_name == 'push' && github.ref_name) || 'latest' }}
+
